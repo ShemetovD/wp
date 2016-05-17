@@ -2,7 +2,7 @@
 index.php
 
 /plugins/*
-!/plugins/events-management
+!/plugins/events-management/
 
 /themes/*
 !/themes/shemetov
