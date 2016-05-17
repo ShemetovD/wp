@@ -1,0 +1,18 @@
+/*
+Theme Name: Shemetov-child
+Theme URI: http://temp-wp.com
+Author: Shemetov Denis
+Description: Test of wordpress
+Template: shemetov
+Version: 1.0
+
+*/
+
+
+@import url ("../shemetov/style.css");
+
+body{
+
+background: red;
+
+}
