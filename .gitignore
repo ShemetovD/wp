@@ -1,1 +1,9 @@
 /uploads
+index.php
+
+/plugins/*
+!/plugins/events-management
+
+/themes/*
+!/themes/shemetov
+!/themes/shemetov-child
