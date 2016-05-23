@@ -14,4 +14,10 @@ function shemetov_widgets_init() {
 add_action( 'widgets_init', 'shemetov_widgets_init' );
 
 
+add_action( 'after_setup_theme', 'register_temp_menu' );
+function register_temp_menu() {
+  register_nav_menu( 'primary', __( 'Temp Menu', 'theme-slug' ) );
+}
+
+
 ?>
