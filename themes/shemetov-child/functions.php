@@ -1,6 +1,6 @@
 <?php
 
-function theme_enqueue_styles() {
+function theme_enqueue_styles_child() {
 
     $parent_style = 'parent-style';
 
@@ -10,6 +10,6 @@ function theme_enqueue_styles() {
         array( $parent_style )
     );
 }
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles_child' );
 
 ?>

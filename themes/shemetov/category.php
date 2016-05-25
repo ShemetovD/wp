@@ -9,8 +9,9 @@
 
 get_header(); ?>
 
-	<div  class="content-area">
-		<main  class="site-main">
+	<div class="container">
+		<div class="row">
+			<div class="col-10">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -41,9 +42,12 @@ get_header(); ?>
 			<p><?php _e( 'Sorry, no posts matched your criteria' ); ?></p>
 		<?endif;
 		?>
-
-		</main>
+			</div>
+			<div class="col-2">
+				<?php get_sidebar(); ?>
+			</div>
+		</div>
 	</div>
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

@@ -7,3 +7,37 @@ Version: 1.0
 Text Domain: shemetov
 
 */
+a{
+text-decoration: none;
+}
+a:hover{
+	color: rebeccapurple;
+}
+.events_theme_menu ul {
+    list-style: none;
+    margin: 0;
+}
+.events_theme_menu li{
+	border: 0;
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+}
+.events_theme_menu li.current-menu-item{
+	background:#FF77FD;
+}
+.events_theme_menu a{
+	display: inline-block;
+    padding: 0 12px;
+    white-space: nowrap;
+}
+.categories_list{
+	list-style: none
+}
+.categories_list ul{
+	padding:0;
+}
+.event_item{
+	border-bottom: 1px solid rebeccapurple;
+}

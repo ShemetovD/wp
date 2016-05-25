@@ -9,7 +9,11 @@
 ?>
 
 <footer>
-    <div>Temp footer</div>
+    <div class="container">
+        <div class="row">
+            Temp footer
+        </div>
+    </div>
 </footer>
 
 

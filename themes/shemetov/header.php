@@ -17,5 +17,9 @@
 </head>
 <body <?php body_class(); ?>>
 	<header>
-		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		<div class="container">
+			<div class="row">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary','container_class' => 'events_theme_menu','menu_class'=> 'events_menu',  ) ); ?>
+			</div>
+		</div>
 	</header>

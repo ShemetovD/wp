@@ -10,9 +10,9 @@ get_header(); ?>
  
  
  
-<div class="content-area">
-        <main class="site-main">
- 
+<div class="container">
+        <div class="row">
+            <div class="col-10">
         <?php         
             // Start the Loop.
             while ( have_posts() ) : the_post();
@@ -35,9 +35,12 @@ get_header(); ?>
                 }
             endwhile;
         ?>
- 
-        </main><!-- .site-main -->
+            </div>
+            <div class="col-2">
+                <?php get_sidebar(); ?> 
+            </div>
+        </div><!-- .site-main -->
     </div>
  
- <?php get_sidebar(); ?> 
+ 
  <?php get_footer(); ?>
